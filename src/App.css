@@ -97,3 +97,23 @@
   position: relative;
   top: 40px;
 }
+.tic-tac-toe-btns button {
+  height: 4vh;
+  width: 5vw;
+  border-radius: 5px;
+  border: 3px solid grey;
+  background: aquamarine;
+  cursor: pointer;
+}
+.tic-tac-toe-btns button:hover {
+  height: 4vh;
+  width: 5vw;
+  border-radius: 5px;
+  border: 3px solid grey;
+  background: aqua;
+  cursor: pointer;
+}
+.game-val {
+  font-size: 37px;
+    font-weight: 400;
+}
