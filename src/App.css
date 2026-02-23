@@ -147,8 +147,14 @@
   background-image: url('./stopwatchBG.png');
   background-size: cover;
   background-position: center;
-  
-}
+  }
+    .stop-watch {
+      position: relative;
+      top: 64px;
+    }
+  .stop-watch-comp {
+    text-align: center;
+  }
 .stop-watch-comp span {
   font-size: 60px;
   font-weight: 700;
@@ -168,4 +174,17 @@
   border-radius: 5px;
   border: 3px solid grey; ;
   cursor: pointer;
+  border: none;
+}
+.custom-time-input-grp {
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 50px;
+}
+.custom-time-btn-grp {
+  display: flex;
+  gap:20px;
+  justify-content: center;
 }
